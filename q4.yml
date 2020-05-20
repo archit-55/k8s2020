@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+ name: adhocrsarchit55
+ labels:
+  app: rslabel
+
+spec:
+ selector:
+  matchLabels:
+   adhoc: archit55q4
+ replicas: 1
+ template:
+  metadata:
+   name: mypodrs22
+   labels:
+    adhoc: archit55q4
+  spec:
+   containers:
+    - name: archit55c1
+      image: archit55/may2020q1:v1
+      ports:
+       - containerPort: 80 
