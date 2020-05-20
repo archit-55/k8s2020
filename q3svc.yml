@@ -7,7 +7,7 @@ metadata:
   name: q3svcarchit55
 spec:
   ports:
-  - nodePort: 31565
+  - nodePort: 31555
     port: 80
     protocol: TCP
     targetPort: 80
