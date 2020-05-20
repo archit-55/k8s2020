@@ -1,0 +1,1 @@
+docker build -t archit55/may2020q1:v1 .
