@@ -1,0 +1,2 @@
+docker login
+docker push archit55/may2020q1:v1
